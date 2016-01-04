@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA0B98FF1C39F25500675770 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA0B98FE1C39F25500675770 /* AlbertEinsteinStamp.jpg */; };
 		CAF854FD1C13922400572A15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF854FC1C13922400572A15 /* AppDelegate.swift */; };
 		CAF854FF1C13922400572A15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF854FE1C13922400572A15 /* ViewController.swift */; };
 		CAF855021C13922400572A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF855001C13922400572A15 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		CAF855071C13922400572A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF855051C13922400572A15 /* LaunchScreen.storyboard */; };
 		CAF855121C13922400572A15 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF855111C13922400572A15 /* PostcardTests.swift */; };
 		CAF8551D1C13922400572A15 /* PostcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF8551C1C13922400572A15 /* PostcardUITests.swift */; };
+		CAF8552B1C1395CD00572A15 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CAF8552A1C1395CD00572A15 /* SagradaFamilia.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA0B98FE1C39F25500675770 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 		CAF854F91C13922400572A15 /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF854FC1C13922400572A15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAF854FE1C13922400572A15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		CAF855181C13922400572A15 /* PostcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF8551C1C13922400572A15 /* PostcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardUITests.swift; sourceTree = "<group>"; };
 		CAF8551E1C13922400572A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF8552A1C1395CD00572A15 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				CAF855101C13922400572A15 /* PostcardTests */,
 				CAF8551B1C13922400572A15 /* PostcardUITests */,
 				CAF854FA1C13922400572A15 /* Products */,
+				CAF8552A1C1395CD00572A15 /* SagradaFamilia.jpeg */,
+				CA0B98FE1C39F25500675770 /* AlbertEinsteinStamp.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAF855071C13922400572A15 /* LaunchScreen.storyboard in Resources */,
+				CAF8552B1C1395CD00572A15 /* SagradaFamilia.jpeg in Resources */,
+				CA0B98FF1C39F25500675770 /* AlbertEinsteinStamp.jpg in Resources */,
 				CAF855041C13922400572A15 /* Assets.xcassets in Resources */,
 				CAF855021C13922400572A15 /* Main.storyboard in Resources */,
 			);
@@ -484,6 +492,7 @@
 				CAF855231C13922400572A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAF855241C13922400572A15 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				CAF855261C13922400572A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAF855271C13922400572A15 /* Build configuration list for PBXNativeTarget "PostcardUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				CAF855291C13922400572A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
